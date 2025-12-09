@@ -4,20 +4,16 @@ nav{
 nav a{
   color:rgb(3, 1, 1);
   margin:0 10px 0 10px;
-  display:inline-block;
   width:20%;
   text-align:center;
 }
 
-/* Challenge 7: Make the font for all elements Arial */
 *{
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
-/* Challenge 8: Remove the underline for all hyperlinks */
 a{
   text-decoration: none;
 }
-/* Challenge 9: Change the bottom border of the hyperlinks in the <nav> element to 2px solid black when the visitor hovers over it */
 nav a:hover{
   border-bottom: 2px solid rgba(16, 160, 204, 0.952);
 }
@@ -31,4 +27,10 @@ nav a:hover{
 .main {
   font-size:40px;
   text-decoration-color: blue;
+}
+.container{
+  display: flex;
+}
+.container div {
+  flex: 1;
 }
