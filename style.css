@@ -18,12 +18,12 @@ nav a:hover{
   border-bottom: 2px solid rgba(16, 160, 204, 0.952);
 }
   
-/* Challenge 10: Change the background color to blue and the text to white for elements with an class of "banner" */
+
 .banner {
   background-color: rgba(255, 76, 136, 0.658);
   color:white
 }
-/* Challenge 11: Make the font size bigger and the color of the text to blue for elements with a class of "main" */
+
 .main {
   font-size:40px;
   text-decoration-color: blue;
